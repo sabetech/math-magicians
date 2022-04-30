@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import CalcButton from './CalcButton';
 import Display from './Display';
@@ -10,10 +10,6 @@ export default function Calculator() {
     next: null,
     operation: null,
   });
-
-  useEffect(() => {
-    console.log(calculatorObj);
-  }, [calculatorObj]);
 
   const handleButtonPress = (e) => {
     setCalculatorObj((prev) => ({ ...prev, ...calculate(prev, e.target.textContent) }));
