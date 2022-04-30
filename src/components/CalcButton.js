@@ -7,12 +7,13 @@ class CalcButton extends Component {
     super(props);
     /* eslint-disable */
     this.buttonCharacter = this.props.buttonCharacter;
+    this.handleButtonClick = this.props.handleButtonPress;
     this.extraClass = this.buttonCharacter === '0' ? 'zeroButton' : '';
 
     if (this.buttonCharacter === '+'
     || this.buttonCharacter === '-'
     || this.buttonCharacter === '÷'
-    || this.buttonCharacter === '×'
+    || this.buttonCharacter === 'x'
     || this.buttonCharacter === '=') {
       this.extraClass += ' operatorButton';
     }
@@ -20,7 +21,7 @@ class CalcButton extends Component {
 
   render() {
     return (
-      <button type="button" className={`calcButton ${this.extraClass}`}>{this.buttonCharacter}</button>
+      <button type="button" className={`calcButton ${this.extraClass}`} onClick={this.handleButtonClick}>{this.buttonCharacter}</button>
     );
   }
 }
