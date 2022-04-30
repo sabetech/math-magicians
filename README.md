@@ -15,7 +15,9 @@
 
 ## Getting Started
 
-To get this project up and running, git clone the project on your file system.
+- To get this project up and running, git clone the project on your file system.
+- Run `npm install` to install all the dependencies that is needed for the application to run
+- Run `npm start` to start the application
 
 ### Prerequisites
 
