@@ -1,4 +1,4 @@
-*{
+* {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
@@ -41,16 +41,15 @@
   font-size: 3em;
 }
 
-blockquote{
+blockquote {
   font-size: x-large;
   background-color: azure;
   padding: 20px;
 }
 
 .calculatorPage {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  
 }
 
 .paragraph {
