@@ -37,6 +37,10 @@
 
 - Run the project with npm start to run the production ready files
 
+## Live Link
+- Heroku: [Click to version on Heroku](https://math-magicians-sabetech.herokuapp.com)
+- Netlify: [Click to the version on Netlify](https://calculator-al.netlify.app)
+
 ## Authors
 
 👤 **Albert Mensah-Ansah**
