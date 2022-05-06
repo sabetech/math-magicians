@@ -1,5 +1,5 @@
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Component } from 'react';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class CalcButton extends Component {
