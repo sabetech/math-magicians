@@ -1,6 +1,11 @@
+* {
+  font-family: 'Trebuchet MS', sans-serif;
+}
 
 .App {
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .App-header {
@@ -12,4 +17,41 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.nav-link-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  font-size: 3em;
+}
+
+blockquote {
+  font-size: x-large;
+  background-color: azure;
+  padding: 20px;
+}
+
+.calculatorPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph {
+  font-size: large;
 }
