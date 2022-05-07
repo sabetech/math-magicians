@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing pages that should render correctly Quote should render correctly 1`] = `
+<blockquote>
+  Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding - William Paul Thurston
+</blockquote>
+`;
