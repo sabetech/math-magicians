@@ -5,25 +5,14 @@ function Home() {
     <div>
       <h2>Welcome to our page</h2>
       <p className="paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nunc id suscipit est. Duis at tortor sed mauris porta finibus.
-        Nam ac mauris sed est scelerisque placerat non ut elit. Nulla facilisi.
-        Vivamus egestas libero vel libero ornare, eget aliquet dolor convallis.
-        Donec efficitur metus nec erat pretium maximus. Suspendisse efficitur
-        nibh eget purus lacinia, id aliquet felis auctor. Cras nec cursus eros.
-        Donec erat lectus, venenatis quis nibh eget, congue commodo quam.
-        Ut accumsan dictum quam a luctus. Nullam pellentesque ante eros, ut
-        pharetra leo finibus sed. Aliquam augue nisi, volutpat ac posuere placerat,
-        condimentum eget dui. Donec convallis, ipsum eu viverra tempus,
-        quam diam elementum purus, vel eleifend nibh nunc at est.
-        Nunc vestibulum sem enim, at ultrices lacus sodales eget. Curabitur a
-        nisi dolor. Vestibulum convallis nec dui id sagittis.
+        Welcome to our calculator application! We are here to assist you 
+    in all your mathematical needs. Whether you're looking to perform simple 
+    arithmetic or more complex calculations, our easy-to-use interface is here 
+    to help. Please feel free to ask us any questions you may have, and we'll 
+    do our best to assist you. Let's get started!
       </p>
       <p className="paragraph">
-        Morbi quis eleifend elit, in ornare neque. Ut tincidunt efficitur euismod.
-        Donec eget convallis dui, sed sollicitudin ex. Interdum et malesuada fames
-        ac ante ipsum primis in faucibus. Curabitur vestibulum aliquet placerat.
-        Phasellus molestie tempus aliquet. Vivamus venenatis tristique eleifend.
+        Use the links above to navigate to the various pages!
       </p>
     </div>
   );
